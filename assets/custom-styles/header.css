@@ -1,54 +1,27 @@
-.site-header {
-    background-image: url("../media/imgs/main-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 1045px;
+.header {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(144deg, rgba(255, 255, 255, 1) 60%, rgba(30, 85, 66, 1) 60%);
+    background: -webkit-linear-gradient(144deg, rgba(255, 255, 255, 1) 60%, rgba(30, 85, 66, 1) 60%);
+    background: linear-gradient(144deg, rgba(255, 255, 255, 1) 60%, rgba(30, 85, 66, 1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#1e5542",GradientType=1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.site-header .nav-link {
-    font-family: var(--font-Jost);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 160%;
-    text-transform: capitalize;
+.navbar .nav.nav-pills {
+    gap: 18px;
+}
+
+.nav-link {
     color: var(--color-dark);
+    padding: 5px 0;
+    font-family: var(--font-Open);
+    font-weight: 600;
+    font-size: 16px;
     transition: 0.3s;
-    padding: 0 !important;
 }
-.site-header .nav-link:hover {
+
+.nav-link:hover,.nav-link:focus {
     color: var(--color-primary);
-}
-.site-header .navbar-nav .nav-link.active {
-    color: var(--color-primary);
-}
-
-.site-header .navbar-nav {
-    gap: 45px;
-}
-.navbar-right{
-    gap: 45px;
-    margin-left: 45px;
-}
-
-.site-header .navbar{
-    padding: 40px 0;
-}
-
-.navbar-toggler{
-    padding: 0;
-    margin: 0;
-    border: none;
-    background: none;
-    font-size: 32px;
-    color: var(--color-primary);
-}
-
-.navbar-toggler:focus{
-   outline: none;
-   box-shadow: none;
-}
-
-div#navbarSupportedContent {
-    transition: .3s linear;
 }

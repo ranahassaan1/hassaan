@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-    --color-primary: #5f2c7f;
-    --color-light: #4e4e4e;
+    --color-primary: #1e5542;
+    --color-light: #d1ddd9;
     --color-mediumLight: #606060;
-    --color-dark: #303030;
+    --color-dark: #1c2220;
     --color-yellow: #f69322;
     --color-lightBlue: #47cfff;
     --color-black: #000000;
